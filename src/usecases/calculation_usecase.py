@@ -1,4 +1,4 @@
-class CalculationsUseCase:
+class CalculationUseCase:
     def __init__(self, a, b):
         self.a = a
         self.b = b

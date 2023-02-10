@@ -1,5 +1,12 @@
-from usecases.calculations_usecase import CalculationsUseCase
+from usecases.calculation_usecase import CalculationUseCase
 
-calculation = CalculationsUseCase(1, 2)
 
-print(calculation.get_product())
+class Main():
+
+    def __init__(self):
+
+        self.calculation = CalculationUseCase(1, 2)
+        print(self.calculation.get_product())
+
+
+main = Main()
