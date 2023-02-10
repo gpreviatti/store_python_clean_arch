@@ -2,7 +2,7 @@ import unittest
 
 import src.usecases.calculation_usecase as calculation_usecase
 
-class TestCalculations(unittest.TestCase):
+class TestCalculationsUseCase(unittest.TestCase):
 
     def test_sum(self):
         self.assertEqual(calculation_usecase.get_sum(8, 2), 10, 'The sum is wrong.')
@@ -15,7 +15,3 @@ class TestCalculations(unittest.TestCase):
 
     def test_quotient(self):
         self.assertEqual(calculation_usecase.get_quotient(8, 2), 4, 'The quotient is wrong.')
-
-
-if __name__ == '__main__':
-    unittest.main()
