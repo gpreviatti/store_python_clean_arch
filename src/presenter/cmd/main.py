@@ -1,3 +1,3 @@
-import application.usecases.calculation_usecase as calculation_usecase
+from application.usecases.calculation_usecase import CalculationUseCase
 
-print(calculation_usecase.get_sum(8, 2))
+print(CalculationUseCase.get_sum(8, 2))
