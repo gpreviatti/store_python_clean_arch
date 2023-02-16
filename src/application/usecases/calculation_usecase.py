@@ -1,14 +1,17 @@
 class CalculationUseCase:
 
-    def get_sum(a, b):
+    def __init__(self):
+        pass
+
+    def get_sum(self, a, b):
         return a + b
 
-    def get_difference(a, b):
+    def get_difference(self, a, b):
         return a - b
 
 
-    def get_product(a, b):
+    def get_product(self, a, b):
         return a * b
 
-    def get_quotient(a, b):
+    def get_quotient(self, a, b):
         return a / b

@@ -27,9 +27,6 @@ class OrderEntity:
         if total == None:
             raise ValueError("Order total does not match")
     
-    def create(self) -> bool:
-        return True
-    
-    def delete(self) -> bool:
-        return True
+    def add_items(self, items : list):
+        self.items = items
 
