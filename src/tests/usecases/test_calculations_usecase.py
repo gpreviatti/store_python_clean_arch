@@ -1,6 +1,6 @@
 import unittest
 
-import src.usecases.calculation_usecase as calculation_usecase
+import src.application.usecases.calculation_usecase as calculation_usecase
 
 class TestCalculationsUseCase(unittest.TestCase):
 
