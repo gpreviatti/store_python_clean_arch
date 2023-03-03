@@ -1,6 +1,6 @@
 import unittest
 
-from src.application.usecases.calculation_usecase import CalculationUseCase
+from src.modules.usecases.calculation_usecase import CalculationUseCase
 
 class TestCalculationsUseCase(unittest.TestCase):
     def setUp(self):
