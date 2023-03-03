@@ -1,7 +1,7 @@
 import unittest
 
-from src.domain.order_entity import OrderEntity
-from src.domain.product_entity import ProductEntity
+from src.modules.domain.entity.order_entity import OrderEntity
+from src.modules.domain.entity.product_entity import ProductEntity
 
 class OrderEntityTest(unittest.TestCase):
 
